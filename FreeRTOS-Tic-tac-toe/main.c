@@ -2,7 +2,7 @@
 * FreeRTOS_Test1.c
 *
 * Created: 26/10/2016 13:55:41
-* Author : IHA
+* Author : IHA and SIR
 */
 
 #include <avr/sfr_defs.h>
