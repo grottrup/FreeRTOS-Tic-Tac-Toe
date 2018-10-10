@@ -1,19 +1,5 @@
 % Tic-tac-toe Console Game
 
-# Abstract
-
-The purpose of the report is to document the development of a tic-tac-toe game for two
-players - one on a PC, another on a custom game controller.
-The main parts of the report are similar to development phases - analysis, design,
-implementation, testing.
-The Analysis contains the system requirements; problems and mechanical limitations that
-were identified.
-The Design is where we designed our system, according to the information in the analysis.
-In the Implementation and Testing, the system is implemented, according to the design, and
-properly tested to verify the full functionality of it.
-At the end of the time period, given for the project, most of the implementation was done.
-
-
 # Introduction
 
 Project's goal is to deliver a complete functional tic-tac-toe game based on a Game Console
