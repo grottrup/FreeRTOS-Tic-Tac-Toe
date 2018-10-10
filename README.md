@@ -64,15 +64,15 @@ turn based.
 winner.
 8. It should possible to see which field the current player has selected on the PC application.
 
-### Environment requirement
-* Context of use
-  * Player 2 should be able to interact with game using the keyboard of a PC.
-  * Player 1 should be able to interact with the game with a joystick.
-* Technologies
-  * All game logic must be in the software running on the Game Console.
-  * The software for the system should be written using C-programming. The system must
+### Environment requirements
+#### Context of use
+* Player 2 should be able to interact with game using the keyboard of a PC.
+* Player 1 should be able to interact with the game with a joystick.
+#### Technologies
+* All game logic must be in the software running on the Game Console.
+* The software for the system should be written using C-programming. The system must
 have a PC application.
-  * The Game Console and the PC must connect through a Serial USB cable.
+* The Game Console and the PC must connect through a Serial USB cable.
 
 ### Usability and other non-functional requirements
 This is meant to be a prototype for demonstration of the achievement of the restriction of the temporal
