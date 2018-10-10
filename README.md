@@ -118,6 +118,6 @@ Game Console. (HRT)
 
 ---
 
-Clean writing the rest of the report...
+Cleanwriting the rest of the report...
 
 Ideally I would like to convert this to LaTex
