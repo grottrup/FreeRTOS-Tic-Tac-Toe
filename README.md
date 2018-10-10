@@ -93,6 +93,29 @@ the data regarding the what is stored about the tic-tac-toe marks take less than
 * The system will not have an option to select who will have the first turn. The player on the
 Game Console (Player 1) will always have the first turn.
 
+# Design
+## Tasks
+The planned behaviour of the system was analysed and processed it was divided into two groups: 
+* The tasks, tagged with (HRT) are hard real time, meaning their deadlines can never be
+ missed. 
+* Those with the (SRT) tag are soft real time – missing their deadlines is deemed notimportant.
+
+### GC Tasks
+* Joystick: The Game Console must regularly handle input from the Joystick.(HRT)
+* GC communication: The Game Console must regularly receive messages from the PC.
+The Game Console must also occasionally update the PC application with
+information of selected fields and results of the tic-tac-toe game.(HRT)
+* Logic: The Game Console must act on input and received messages within a short
+time interval. The purpose is to update the state of the tic-tac-toe game. (HRT)
+* Display: The Game Console must be able change what the LEDs should display, per
+updates of the state of the game, within a short time interval. (SRT) 
+
+### PC Tasks
+* PC communication: Send and receive information through the connection to the
+Game Console. (HRT)
+* Keyboard: Receive input from the PC keyboard. (HRT)
+* View: Show information on the PC screen. (SRT)
+
 ---
 
 Clean writing the rest of the report...
