@@ -66,12 +66,12 @@ winner.
 
 ### Environment requirements
 #### Context of use
+* The system must have a PC application.
 * Player 2 should be able to interact with game using the keyboard of a PC.
 * Player 1 should be able to interact with the game with a joystick.
 #### Technologies
 * All game logic must be in the software running on the Game Console.
-* The software for the system should be written using C-programming. The system must
-have a PC application.
+* The software for the system should be written using C-programming. 
 * The Game Console and the PC must connect through a Serial USB cable.
 
 ### Usability and other non-functional requirements
@@ -82,7 +82,7 @@ group would be hobbyists and children.
 
 * The tic-tac-toe game must consist of a 3x3 fields.
 * The marks of Player 1 and Player 2 should be distinct.
-* It should ta ke 0.25 seconds from a player pressing the button to insert a tic-tac-toe mark to it b
+* It should take 0.25 seconds from a player pressing the button to insert a tic-tac-toe mark to it b
 eing updated inside the game logic. This means that it is okay that it will take a bit longer
 before the action is displayed, but there should from pressing the joystick button till updating
 the data regarding the what is stored about the tic-tac-toe marks take less than 0.25 seconds.
@@ -98,7 +98,7 @@ Game Console (Player 1) will always have the first turn.
 The planned behaviour of the system was analysed and processed it was divided into two groups: 
 * The tasks, tagged with (HRT) are hard real time, meaning their deadlines can never be
  missed. 
-* Those with the (SRT) tag are soft real time – missing their deadlines is deemed notimportant.
+* Those with the (SRT) tag are soft real time – missing their deadlines is deemed unimportant.
 
 ### GC Tasks
 * Joystick: The Game Console must regularly handle input from the Joystick.(HRT)
